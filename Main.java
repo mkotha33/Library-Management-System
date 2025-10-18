@@ -19,8 +19,8 @@ public class Main {
         Branch branchA = new Branch("Central");
         Branch branchB = new Branch("East");
 
-        Book book1 = BookFactory.createBook("Java Basics", "John Doe", "ISBN001", 2010);
-        Book book2 = BookFactory.createBook("OOP Concepts", "Jane Smith", "ISBN002", 2012);
+        Book book1 = BookFactory.createBook("Java Basics", "Maahi Kotha", "ISBN001", 2010);
+        Book book2 = BookFactory.createBook("OOP Concepts", "Pranay Kumar", "ISBN002", 2012);
         
         BookService bookService = new BookService();
         bookService.addBookToBranch(book1, branchA);
